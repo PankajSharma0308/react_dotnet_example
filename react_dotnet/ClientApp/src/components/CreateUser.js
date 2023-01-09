@@ -9,7 +9,8 @@ const CreateUser = ({ onChangeForm, createUser }) => {
           <form>
             <div className="row">
               <div className="form-group col-md-6">
-                <label
+                <label htmlFor="exampleInputEmail1"> First Name </label>
+                <input
                   type="text"
                   onChange={(e) => onChangeForm(e)}
                   className="form-control"
