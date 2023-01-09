@@ -15,7 +15,6 @@ const CreateUser = ({ onChangeForm, createUser }) => {
                   className="form-control"
                   name="firstname"
                   id="firstname"
-                  aria-describedby="emailHelp"
                   placeholder="First Name"
                 />
               </div>
